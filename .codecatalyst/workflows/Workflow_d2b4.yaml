@@ -1,5 +1,4 @@
 Name: Workflow_d2b4
-RunMode: QUEUED
 SchemaVersion: "1.0"
 
 # Optional - Set automatic triggers.
