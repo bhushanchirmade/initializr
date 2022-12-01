@@ -31,8 +31,7 @@ Actions:
         - Run: docker tag java-api-fargate ${registry}/${image}:${WorkflowSource.CommitId}
         - Run: docker tag java-api-fargate ${registry}/${image}:latest
         - Run: docker push --all-tags ${registry}/${image}
-        - Run: export
-            IMAGE=${registry}/${image}:${WorkflowSource.CommitId}
+        - Run: export IMAGE=${registry}/${image}:${WorkflowSource.CommitId}
     Outputs:
       Variables:
         - IMAGE
